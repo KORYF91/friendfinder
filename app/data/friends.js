@@ -1,7 +1,7 @@
 // FILE TO CONTAIN DATA FOR THE APLICATION HERE... JSON FORMATTED PERFERRED. 
 
 var data = {
-    "name": "Someone Somthing",
+    name: "Someone Somthing",
     photo: "link to photo",
     scores: [
         5,
