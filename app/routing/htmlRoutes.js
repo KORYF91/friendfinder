@@ -11,11 +11,11 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
 
-    // // ROUTE TO THE HOME.HTML - DEFAULT PAGE
-    // app.get("*", function (req, res) {
-    //     console.log("/ route")
-    //     res.sendFile(path.join(__dirname, "../public/home.html"));
-    // });
+    // ROUTE TO THE HOME.HTML - DEFAULT PAGE
+    app.get("*", function (req, res) {
+        console.log("/ route")
+        res.sendFile(path.join(__dirname, "../public/home.html"));
+    });
 
     app.get("*", function(req, res){
         res.sendFile(path.join(__dirname, "/../public/home.html"))
